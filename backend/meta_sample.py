@@ -8,13 +8,13 @@ from facebook_business.adobjects.adpreview import AdPreview
 from facebook_business.api import FacebookAdsApi
 
 
-access_token = 'EAALfp5xJkm4BO2zKpwYd7kH3wM4lgoDQ8QpeO7nyXm31LbkZBZC0Al3bZBGsgbZBlevQUi7ZCmNjetFnxCjh5VkaZCZA2G3wNR6QM2Aw29BvVFpmR5YvQJVujMHblBZAbmRguDu2LGeWyq6yCCkuPqPKWSxktW0ZAle0dDUZCesczQXOZCIOCE8qQdQZBvpyZCsVU1pOlwSgfNBdR'
-app_secret = 'f0ef7d8e602d7ad1afb9592c6fa1f43c'
-ad_account_id = 'act_495804279669008'
-audience_name = 'All'
-audience_retention_days = '30'
-pixel_id = '509194978331688'
-app_id = '808860928021102'
+access_token = ''
+app_secret = ''
+ad_account_id = ''
+audience_name = ''
+audience_retention_days = ''
+pixel_id = ''
+app_id = ''
 FacebookAdsApi.init(access_token=access_token)
 
 fields = [
